@@ -1,3 +1,6 @@
+//Copy Right by Akeju Oluwanifemi Adeola.... FALYAGHFIR LAK ALRABU
+
+
 var burger = document.getElementById("bars");
 var times = document.getElementById("times");
 

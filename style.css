@@ -14,10 +14,10 @@ body{
     scroll-behavior: smooth;
     transition: 0.7s ease;
     animation-name: gradient-change;
-    animation-duration: 2.2s;
+    animation-duration: 5.2s;
     animation-iteration-count: infinite;
-    animation-delay: 0s;
-    
+    animation-delay: 2s;
+
     
 
 }
