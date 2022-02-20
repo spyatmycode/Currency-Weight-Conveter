@@ -89,13 +89,12 @@ wconvert.addEventListener(
 
         var grams = document.getElementById("ginput").value;
 
-        var kilo = document.getElementById("kilo").innerHTML = (+grams* 1000).toFixed(3);
+        var kilo = document.getElementById("kilo").innerHTML = (+grams / 1000).toFixed(3) + "kg";
 
-        var pounds = document.getElementById("pound").innerHTML = (+grams*453.59).toFixed(3);;
+        var pounds = document.getElementById("pound").innerHTML = (+grams /453.59).toFixed(3) + "lb";
 
-        var tonne = document.getElementById("tonne").innerHTML = (+grams*1000000).toFixed(3);;
-
-        var ounce = document.getElementById("ounce").innerHTML = (+grams*28.35).toFixed(3);
+        var tonne = document.getElementById("tonne").innerHTML = (+grams /1000000).toFixed(3) + "t"; 
+        var ounce = document.getElementById("ounce").innerHTML = (+grams / 28.35).toFixed(3) + "oz";
 
 
 
